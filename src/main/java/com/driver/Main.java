@@ -5,6 +5,35 @@ import java.util.Scanner;
 public class Main {
 
     static class Product{
+        int x;
+        int y;
+        int z;
+        double a;
+        double b;
+
+        Product(){
+            this.x = x;
+            this.y = y;
+            this.z = z;
+            this.a = a;
+            this.b = b;
+        }
+
+//        Product(int x, int y){
+//            this.x = x;
+//            this.y = y;
+//        }
+//
+//        Product(int x, int y, int z){
+//            this.x = x;
+//            this.y = y;
+//            this.z = z;
+//        }
+//
+//        Product(double a, double y){
+//            this.a = a;
+//            this.b = b;
+//        }
 
         public int product(int x, int y) {
             return x*y;
