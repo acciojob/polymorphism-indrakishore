@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static class Product{
+    public static class Product{
         int x;
         int y;
         int z;
@@ -12,11 +12,11 @@ public class Main {
         double b;
 
         Product(){
-            this.x = x;
-            this.y = y;
-            this.z = z;
-            this.a = a;
-            this.b = b;
+            this.x = 0;
+            this.y = 0;
+            this.z = 0;
+            this.a = 0.0;
+            this.b = 0.0;
         }
 
 //        Product(int x, int y){
