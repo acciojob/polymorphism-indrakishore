@@ -11,7 +11,7 @@ public class Main {
         double a;
         double b;
 
-        Product(){
+        public Product(){
             this.x = 0;
             this.y = 0;
             this.z = 0;
